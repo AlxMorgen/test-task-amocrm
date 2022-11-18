@@ -23,7 +23,7 @@ const createTimerAnimator = () => {
 
       if (seconds < 0) {
         clearInterval(timer);
-        alert("sasa");
+        alert("Время вышло");
       } else {
         timerEl.innerHTML = `${hour}:${minute}:${second}`;
       }
